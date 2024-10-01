@@ -58,8 +58,8 @@ You can test this method by executing from a Julia Pkg REPL (by pressing `]` wit
 
 To solve instance `I01` (which must be present inside the folder `inst`) for $\Delta_k = 15$ and $\Delta_t = 5$ please execute
 ```julia
-using BSTPDDD
-solution = BSTPDDD.ddd_bstp("I01",15,5)
+julia> using BSTPDDD
+julia> solution = BSTPDDD.ddd_bstp("I01",15,5)
 
 # returns:
 #    Number of SCCs

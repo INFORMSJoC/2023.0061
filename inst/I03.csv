@@ -1,0 +1,32 @@
+id,I03
+SCCs,2
+m,3
+Lab info
+id,Open_time,Working_time,Service_time
+0,0,2000,10
+SCCs info
+id,k,Open_time,Collection_time,Service_time,TmaxSCC,Tmax2Lab,
+1,2,340,155,10,180,270
+2,2,60,815,10,180,600
+TravelTime Matrix
+i,j,time
+0,0,0
+0,1,21
+0,2,55
+1,0,21
+1,1,0
+1,2,60
+2,0,55
+2,1,60
+2,2,0
+Distance Matrix
+i,j,Distance
+0,0,0
+0,1,17.48
+0,2,60.46
+1,0,17.48
+1,1,0
+1,2,92.32
+2,0,60.46
+2,1,92.32
+2,2,0

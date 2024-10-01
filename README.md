@@ -56,11 +56,9 @@ You can test this method by executing from a Julia Pkg REPL (by pressing `]` wit
 
 ## Basic Usage
 
+To solve instance `I01` (which must be present inside the folder `inst`) for $\Delta_k = 15$ and $\Delta_t = 5$ please execute
 ```julia
 using BSTPDDD
-
-# Solve instance I01 with \delta_k = 15 and \delta_t = 5
-# inst folder must be in the working direcotry
 solution = BSTPDDD.ddd_bstp("I01",15,5)
 
 # returns:

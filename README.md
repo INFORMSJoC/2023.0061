@@ -20,7 +20,7 @@ Below is the BibTex for citing this snapshot of the respoitory.
 
 ```
 @article{bstp2024ijoc,
-  author =        {D. M. Ocampo-Giraldo and A. M. Anaya-Arenas and Claudio Contardo},
+  author =        {Daniel M. Ocampo-Giraldo and Ana M. Anaya-Arenas and Claudio Contardo},
   publisher =     {INFORMS Journal on Computing},
   title =         {An iterative exact algorithm over a time-expanded network for the transportation of biomedical samples},
   year =          {2024},

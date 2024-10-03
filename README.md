@@ -38,6 +38,7 @@ The main folders are 'data', 'results', 'src' and 'test'.
 - '[inst](inst)': This folder includes instances of the BSTP.
 - '[src](src)': The source code.
 - '[test](test)': Tests.
+- '[results](results)': Detailed results, please see the README.md included in that folder for more information.
 
 
 ## Installation

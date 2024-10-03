@@ -5,7 +5,7 @@
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
-The software and data in this repository are a snapshot of the software and data that were used in the research reported in the paper An iterative exact algorithm over a time-expanded network for the transportation of biomedical samples by D. M. Ocampo-Giraldo, A. M. Anaya-Arenas and Claudio Contardo. The upstream repository (including a potentially more up-to-date version of this code) can be found at https://github.com/dmocampog/BSTPDDD.jl. This snapshot has been built from [this commit](https://github.com/dmocampog/BSTPDDD.jl/commit/c42abe2ae1b0ba955300cbba5397d8e5fc4eb819)
+The software and data in this repository are a snapshot of the software and data that were used in the research reported in the paper An iterative exact algorithm over a time-expanded network for the transportation of biomedical samples by Daniel M. Ocampo-Giraldo, Ana M. Anaya-Arenas and Claudio Contardo. The upstream repository (including a potentially more up-to-date version of this code) can be found at https://github.com/dmocampog/BSTPDDD.jl. This snapshot has been built from [this commit](https://github.com/dmocampog/BSTPDDD.jl/commit/c42abe2ae1b0ba955300cbba5397d8e5fc4eb819).
 
 
 ## Cite
@@ -20,7 +20,7 @@ Below is the BibTex for citing this snapshot of the respoitory.
 
 ```
 @article{bstp2024ijoc,
-  author =        {D. M. Ocampo-Giraldo and A. M. Anaya-Arenas and Claudio Contardo},
+  author =        {Daniel M. Ocampo-Giraldo and Ana M. Anaya-Arenas and Claudio Contardo},
   publisher =     {INFORMS Journal on Computing},
   title =         {An iterative exact algorithm over a time-expanded network for the transportation of biomedical samples},
   year =          {2024},

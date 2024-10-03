@@ -1,0 +1,167 @@
+Upperbound Solution for instance I22 iteration 27
+SCC;8;Number of TR;35
+Maximum commodity time; 585 minutes ;dk;15;;MIP solution time limit;3600 s
+SCC;Number of pickups;pickups time
+2;1;[725]
+3;1;[515]
+4;1;[480]
+5;2;[760, 840]
+6;2;[730, 810]
+7;2;[640, 755]
+8;2;[670, 800]
+9;2;[610, 835]
+Routes=;9.0
+The Routes tracking was not possible
+
+route 1
+Commodities=,[3 6 20 21]
+node,time
+1,450
+4,480,Int64[]
+4,485,[3]
+3,515,Int64[]
+3,520,Int64[]
+3,525,Int64[]
+3,530,Int64[]
+3,535,Int64[]
+3,540,Int64[]
+3,545,Int64[]
+3,550,Int64[]
+3,555,Int64[]
+3,560,Int64[]
+3,565,Int64[]
+3,570,Int64[]
+3,575,Int64[]
+3,580,Int64[]
+3,585,Int64[]
+3,590,Int64[]
+3,595,Int64[]
+3,600,Int64[]
+3,605,Int64[]
+3,610,Int64[]
+7,640,[6, 20, 21]
+1,660,Int64[]
+duration=,210
+
+route 2
+Commodities=,[8;;]
+node,time
+1,585
+9,610,Int64[]
+9,615,Int64[]
+9,620,Int64[]
+9,625,Int64[]
+9,630,Int64[]
+9,635,[8]
+1,660,Int64[]
+duration=,75
+
+route 3
+Commodities=,[7;;]
+node,time
+1,630
+8,670,Int64[]
+8,675,Int64[]
+8,680,Int64[]
+8,685,Int64[]
+8,690,Int64[]
+8,695,Int64[]
+8,700,Int64[]
+8,705,[7]
+1,745,Int64[]
+duration=,115
+
+route 4
+Commodities=,[4 5 10 26]
+node,time
+1,700
+6,730,[5, 10]
+5,760,[4, 26]
+1,780,Int64[]
+duration=,80
+
+route 5
+Commodities=,[1 32 33]
+node,time
+1,705
+2,725,[2]
+2,730,[5, 10]
+2,735,Int64[]
+2,740,Int64[]
+2,745,Int64[]
+2,750,Int64[]
+2,755,Int64[]
+2,760,[4, 26]
+2,765,Int64[]
+2,770,Int64[]
+2,775,Int64[]
+2,780,Int64[]
+2,785,Int64[]
+2,790,[1, 32, 33]
+1,810,[30, 31]
+duration=,105
+
+route 6
+Commodities=,[12 24 25]
+node,time
+1,760
+8,800,[12, 24, 25]
+1,840,Int64[]
+duration=,80
+
+route 7
+Commodities=,[9 16 17 27 28 29 30 31 34 35]
+node,time
+1,780
+6,810,[30, 31]
+5,840,Int64[]
+5,845,Int64[]
+5,850,Int64[]
+5,855,Int64[]
+5,860,Int64[]
+5,865,Int64[]
+5,870,Int64[]
+5,875,[11, 14, 15, 22, 23]
+5,880,Int64[]
+5,885,Int64[]
+5,890,Int64[]
+5,895,Int64[]
+5,900,Int64[]
+5,905,Int64[]
+5,910,Int64[]
+5,915,Int64[]
+5,920,Int64[]
+5,925,Int64[]
+5,930,Int64[]
+5,935,Int64[]
+5,940,Int64[]
+5,945,Int64[]
+5,950,Int64[]
+5,955,Int64[]
+5,960,Int64[]
+5,965,Int64[]
+5,970,Int64[]
+5,975,Int64[]
+5,980,Int64[]
+5,985,Int64[]
+5,990,Int64[]
+5,995,Int64[]
+5,1000,Int64[]
+5,1005,Int64[]
+5,1010,Int64[]
+5,1015,Int64[]
+5,1020,Int64[]
+5,1025,Int64[]
+5,1030,Int64[]
+5,1035,[9, 16, 17, 27, 28, 29, 34, 35]
+1,1055,Int64[]
+duration=,275
+
+route 8
+Commodities=,[13 18 19]
+node,time
+1,810
+9,835,[13, 18, 19]
+1,860,Int64[]
+duration=,50
+

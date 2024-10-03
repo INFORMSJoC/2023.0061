@@ -1,0 +1,21 @@
+Log for instance I07
+Total time (s);20.802;Iterations;10
+SCC;5;Number of TR;56
+Maximum commodity time; 945 minutes;dk;30;;MIP solution time limit;3600 s
+Initial grouping;Final grouping
+6;10
+Log for commodities grouping
+commodity iteration;iteration;Lower Bound;Best Lower Bound;Upper Bound;RelativeGap;infactibility;type;SKid;CGinitial;CG;time (s);Picks
+1;6;298.0;298.0;366;22.818791946308725;570;1;6;6;8;0.277
+2;9;318.0;318.0;366;15.09433962264151;285;2;5;8;10;0.389
+Log for partial expanded
+iteration;Lower Bound;Best Lower Bound;Upper Bound;RelativeGap;NEinitial;NEfinal;number of infeasible arcs;time (s); k iteration; infactibility; SKid;Picks
+1;256.0;256.0;366;42.96875;28;38;5;3.19;6;570;6
+2;278.0;278.0;366;31.654676258992804;38;46;5;0.162;6;570;6
+3;285.0;285.0;366;28.421052631578945;46;53;5;0.219;6;570;6
+4;289.0;289.0;366;26.643598615916954;53;57;3;0.238;6;570;6
+5;297.0;297.0;366;23.232323232323232;57;61;3;0.232;6;570;6
+6;298.0;298.0;366;22.818791946308725;67;69;1;0.277;8;570;6
+7;298.0;298.0;366;22.818791946308725;69;73;2;0.406;8;200;5
+8;318.0;318.0;366;15.09433962264151;73;78;3;0.614;8;200;5
+9;318.0;318.0;366;15.09433962264151;84;84;0;0.389;10;285;5

@@ -1,0 +1,57 @@
+Upperbound Solution for instance I03 iteration 5
+SCC;2;Number of TR;5
+Maximum commodity time; 600 minutes ;dk;15;;MIP solution time limit;3600 s
+SCC;Number of pickups;pickups time
+2;1;[495]
+3;2;[525, 540]
+Routes=;3.0
+
+
+route 1
+Commodities=,[1;;]
+node,time
+1,450
+2,495,[1]
+1,540,Int64[]
+duration=,90
+
+route 2
+Commodities=,[2;;]
+node,time
+1,450
+3,525,[2]
+1,600,Int64[]
+duration=,150
+
+route 3
+Commodities=,[3 4 5]
+node,time
+1,465
+3,540,Int64[]
+3,555,Int64[]
+3,570,Int64[]
+3,585,Int64[]
+3,600,Int64[]
+3,615,Int64[]
+3,630,Int64[]
+3,645,Int64[]
+3,660,Int64[]
+3,675,Int64[]
+3,690,Int64[]
+3,705,Int64[]
+3,720,Int64[]
+3,735,Int64[]
+3,750,Int64[]
+3,765,Int64[]
+3,780,Int64[]
+3,795,Int64[]
+3,810,Int64[]
+3,825,Int64[]
+3,840,Int64[]
+3,855,Int64[]
+3,870,Int64[]
+3,885,Int64[]
+3,900,[3, 4, 5]
+1,975,Int64[]
+duration=,510
+

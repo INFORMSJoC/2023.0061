@@ -1,0 +1,153 @@
+Upperbound Solution for instance I11 iteration 17
+SCC;4;Number of TR;17
+Maximum commodity time; 490 minutes ;dk;30;;MIP solution time limit;3600 s
+SCC;Number of pickups;pickups time
+2;1;[520]
+3;2;[570, 575]
+4;1;[530]
+5;4;[435, 1145, 1450, 915]
+Routes=;6.0
+The Routes tracking was not possible
+
+route 1
+Commodities=,1×0 transpose(::Vector{Int64}) with eltype Int64
+node,time
+1,390
+2,520,Int64[]
+2,525,Int64[]
+2,530,Int64[]
+2,535,Int64[]
+3,570,Int64[]
+3,575,Int64[]
+3,580,Int64[]
+3,585,Int64[]
+1,695,Int64[]
+duration=,305
+
+route 2
+Commodities=,[4 9 16 17]
+node,time
+1,405
+5,435,Int64[]
+5,440,Int64[]
+5,445,Int64[]
+5,450,Int64[]
+5,455,Int64[]
+5,460,Int64[]
+5,465,Int64[]
+5,470,[4, 9, 16, 17]
+1,500,Int64[]
+duration=,95
+
+route 3
+Commodities=,[3 6 8 12 13]
+node,time
+1,500
+4,530,Int64[]
+4,535,Int64[]
+4,540,[1]
+4,545,Int64[]
+4,550,Int64[]
+4,555,Int64[]
+4,560,Int64[]
+4,565,Int64[]
+4,570,Int64[]
+4,575,Int64[]
+4,580,Int64[]
+4,585,Int64[]
+4,590,Int64[]
+4,595,Int64[]
+4,600,Int64[]
+4,605,Int64[]
+4,610,Int64[]
+4,615,Int64[]
+4,620,Int64[]
+4,625,Int64[]
+4,630,Int64[]
+4,635,Int64[]
+4,640,Int64[]
+4,645,Int64[]
+4,650,Int64[]
+4,655,Int64[]
+4,660,Int64[]
+4,665,Int64[]
+4,670,Int64[]
+4,675,Int64[]
+4,680,Int64[]
+4,685,Int64[]
+4,690,Int64[]
+4,695,Int64[]
+4,700,Int64[]
+4,705,Int64[]
+4,710,Int64[]
+4,715,Int64[]
+4,720,Int64[]
+4,725,Int64[]
+4,730,Int64[]
+4,735,Int64[]
+4,740,Int64[]
+4,745,Int64[]
+4,750,Int64[]
+4,755,Int64[]
+4,760,Int64[]
+4,765,Int64[]
+4,770,Int64[]
+4,775,Int64[]
+4,780,[2]
+4,785,Int64[]
+4,790,Int64[]
+4,795,Int64[]
+4,800,Int64[]
+4,805,Int64[]
+4,810,Int64[]
+4,815,Int64[]
+4,820,Int64[]
+4,825,Int64[]
+4,830,Int64[]
+4,835,Int64[]
+4,840,Int64[]
+4,845,Int64[]
+4,850,Int64[]
+4,855,Int64[]
+4,860,Int64[]
+4,865,Int64[]
+4,870,Int64[]
+4,875,[3]
+5,915,Int64[]
+5,920,[6, 8, 12, 13]
+1,950,Int64[]
+duration=,450
+
+route 4
+Commodities=,[5 14]
+node,time
+1,1115
+5,1145,Int64[]
+5,1150,Int64[]
+5,1155,Int64[]
+5,1160,Int64[]
+5,1165,Int64[]
+5,1170,Int64[]
+5,1175,Int64[]
+5,1180,Int64[]
+5,1185,Int64[]
+5,1190,[5, 14]
+1,1220,Int64[]
+duration=,105
+
+route 5
+Commodities=,[7 10 11 15]
+node,time
+1,1420
+5,1450,Int64[]
+5,1455,Int64[]
+5,1460,Int64[]
+5,1465,Int64[]
+5,1470,Int64[]
+5,1475,Int64[]
+5,1480,Int64[]
+5,1485,Int64[]
+5,1490,[7, 10, 11, 15]
+1,1520,Int64[]
+duration=,100
+

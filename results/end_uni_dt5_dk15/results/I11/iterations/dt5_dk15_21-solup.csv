@@ -1,0 +1,93 @@
+Upperbound Solution for instance I11 iteration 21
+SCC;4;Number of TR;31
+Maximum commodity time; 520 minutes ;dk;15;;MIP solution time limit;3600 s
+SCC;Number of pickups;pickups time
+2;1;[405]
+3;1;[615]
+4;1;[840]
+5;4;[375, 930, 675, 900]
+Routes=;5.0
+The Routes tracking was not possible
+
+route 1
+Commodities=,[1 7 9 10 20 21 43]
+node,time
+1,270
+2,405,Int64[]
+2,420,Int64[]
+2,435,Int64[]
+2,450,Int64[]
+2,465,[4, 30]
+2,480,Int64[]
+2,495,Int64[]
+2,510,Int64[]
+2,525,[1]
+5,675,Int64[]
+5,690,[6, 8, 9, 16, 17, 31]
+1,720,Int64[]
+duration=,450
+
+route 2
+Commodities=,[4 42]
+node,time
+1,345
+5,375,Int64[]
+5,390,Int64[]
+5,405,Int64[]
+5,420,Int64[]
+5,435,Int64[]
+5,450,Int64[]
+5,465,[4, 30]
+1,495,Int64[]
+duration=,150
+
+route 3
+Commodities=,[2 30 31]
+node,time
+1,495
+3,615,Int64[]
+3,630,Int64[]
+3,645,Int64[]
+3,660,Int64[]
+3,675,Int64[]
+3,690,[6, 8, 9, 16, 17, 31]
+3,705,Int64[]
+3,720,Int64[]
+3,735,Int64[]
+3,750,Int64[]
+3,765,[2, 22, 23]
+1,885,Int64[]
+duration=,390
+
+route 4
+Commodities=,[3 5 13 15 17 22 24 26 28 32 33 34 36 38 40]
+node,time
+1,810
+4,840,Int64[]
+4,855,[3, 24, 25]
+5,900,Int64[]
+5,915,Int64[]
+5,930,Int64[]
+5,945,Int64[]
+5,960,Int64[]
+5,975,Int64[]
+5,990,Int64[]
+5,1005,Int64[]
+5,1020,[5, 12, 13, 14, 18, 19, 20, 21, 26, 27, 28, 29]
+1,1050,Int64[]
+duration=,240
+
+route 5
+Commodities=,[6 14 16 18 23 25 27 29 35 37 39 41]
+node,time
+1,900
+5,930,Int64[]
+5,945,Int64[]
+5,960,Int64[]
+5,975,Int64[]
+5,990,Int64[]
+5,1005,Int64[]
+5,1020,[5, 12, 13, 14, 18, 19, 20, 21, 26, 27, 28, 29]
+1,1050,Int64[]
+duration=,150
+

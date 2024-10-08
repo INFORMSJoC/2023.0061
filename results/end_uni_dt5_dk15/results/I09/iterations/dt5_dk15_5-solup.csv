@@ -1,0 +1,60 @@
+Upperbound Solution for instance I09 iteration 5
+SCC;4;Number of TR;5
+Maximum commodity time; 320 minutes ;dk;15;;MIP solution time limit;3600 s
+SCC;Number of pickups;pickups time
+2;2;[645, 690]
+3;2;[525, 540]
+4;1;[420]
+5;2;[600, 675]
+Routes=;4.0
+The Routes tracking was not possible
+
+route 1
+Commodities=,1×0 transpose(::Vector{Int64}) with eltype Int64
+node,time
+1,360
+4,420,Int64[]
+4,435,Int64[]
+4,450,Int64[]
+4,465,Int64[]
+4,480,Int64[]
+4,495,Int64[]
+3,525,Int64[]
+3,540,Int64[]
+5,600,Int64[]
+1,645,Int64[]
+duration=,285
+
+route 2
+Commodities=,[1;;]
+node,time
+1,615
+2,645,Int64[]
+2,660,[1]
+1,690,Int64[]
+duration=,75
+
+route 3
+Commodities=,[5;;]
+node,time
+1,660
+2,690,Int64[]
+2,705,Int64[]
+2,720,[4]
+2,735,Int64[]
+2,750,Int64[]
+2,765,Int64[]
+2,780,Int64[]
+2,795,Int64[]
+2,810,Int64[]
+2,825,Int64[]
+2,840,Int64[]
+2,855,Int64[]
+2,870,Int64[]
+2,885,Int64[]
+2,900,Int64[]
+2,915,Int64[]
+2,930,[5]
+1,960,Int64[]
+duration=,300
+
